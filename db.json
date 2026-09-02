@@ -1,0 +1,45 @@
+{
+  "cars": [
+    {
+      "id": "1",
+      "name": "Camry",
+      "manufacturer": "Toyota",
+      "year": 2021,
+      "volume": 2.5,
+      "price": 32000,
+      "color": "Білий",
+      "description": "Надійний сімейний седан"
+    },
+    {
+      "id": "2",
+      "name": "X5",
+      "manufacturer": "BMW",
+      "year": 2022,
+      "volume": 3,
+      "price": 65000,
+      "color": "Чорний",
+      "description": "Преміальний позашляховик"
+    },
+    {
+      "id": "3",
+      "name": "Mustang",
+      "manufacturer": "Ford",
+      "year": 2020,
+      "volume": 5,
+      "price": 45000,
+      "color": "Червоний",
+      "description": "Культовий масл-кар"
+    },
+    {
+      "name": "dio",
+      "manufacturer": "honda",
+      "year": "2000",
+      "volume": "0.05",
+      "price": "500",
+      "color": "червоний",
+      "description": "чоткий мопед",
+      "id": "sly1-mu9BUw"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
