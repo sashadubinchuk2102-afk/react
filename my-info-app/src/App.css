@@ -1,0 +1,199 @@
+
+:root {
+  --text: #6b6375;
+  --text-h: #08060d;
+  --bg: #fff;
+  --border: #e5e4e7;
+  --accent: #aa3bff;
+  --shadow: rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #9ca3af;
+    --text-h: #f3f4f6;
+    --bg: #16171d;
+    --border: #2e303a;
+    --accent: #c084fc;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+#root {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+
+.main-title {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 500;
+  color: var(--text-h);
+  margin-bottom: 30px;
+}
+
+
+.card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 24px 28px;
+  margin-bottom: 28px;
+  box-shadow: var(--shadow);
+}
+
+.card h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--text-h);
+  margin-top: 0;
+  margin-bottom: 16px;
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 20px;
+  color: var(--text-h);
+  margin: 8px 0 4px;
+}
+
+.card h4 {
+  font-size: 18px;
+  color: var(--text-h);
+  margin: 16px 0 8px;
+}
+
+.card p {
+  margin: 4px 0;
+}
+
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.image-item {
+  flex: 1 1 calc(50% - 16px);
+  min-width: 180px;
+  text-align: center;
+}
+
+.image-item img {
+  width: 100%;
+  max-height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+
+.image-item p {
+  font-weight: 500;
+  color: var(--text-h);
+  margin-top: 6px;
+}
+
+
+.movie-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.movie-poster {
+  width: 140px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+
+.movie-info {
+  flex: 1;
+  min-width: 180px;
+}
+
+
+.pet-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: center;
+}
+
+.pet-photo {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--border);
+}
+
+.pet-info {
+  flex: 1;
+  min-width: 180px;
+}
+
+
+.album-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.album-item {
+  flex: 1 1 calc(33.33% - 16px);
+  min-width: 120px;
+  text-align: center;
+}
+
+.album-item img {
+  width: 100%;
+  max-height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+
+.album-item p {
+  font-weight: 500;
+  color: var(--text-h);
+  margin-top: 6px;
+}
+
+
+@media (max-width: 768px) {
+  #root {
+    padding: 12px;
+  }
+  .main-title {
+    font-size: 28px;
+  }
+  .card {
+    padding: 16px;
+  }
+  .movie-poster {
+    width: 100px;
+  }
+  .pet-photo {
+    width: 120px;
+    height: 120px;
+  }
+  .album-item {
+    flex: 1 1 calc(50% - 16px);
+  }
+  .image-item {
+    flex: 1 1 100%;
+  }
+}
