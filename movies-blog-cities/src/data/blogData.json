@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Як почати вивчати React",
+    "text": "React — це бібліотека для створення інтерфейсів. Почніть з основ: JSX, компоненти, стан та пропси. Практикуйтеся на маленьких проєктах.",
+    "date": "2026-10-01",
+    "tags": ["React", "JavaScript", "Frontend"]
+  },
+  {
+    "id": 2,
+    "title": "Основи CSS Grid",
+    "text": "CSS Grid — це потужна система для створення двовимірних макетів. Вивчіть grid-template-columns, grid-template-rows та gap.",
+    "date": "2026-09-25",
+    "tags": ["CSS", "Layout", "Web Design"]
+  },
+  {
+    "id": 3,
+    "title": "Що таке TypeScript",
+    "text": "TypeScript — це надбудова над JavaScript, яка додає статичну типізацію. Вона допомагає уникати помилок ще на етапі розробки.",
+    "date": "2026-09-15",
+    "tags": ["TypeScript", "JavaScript", "Programming"]
+  }
+]

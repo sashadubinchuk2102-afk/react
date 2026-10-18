@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Дюна: Частина друга",
+    "description": "Пол Атрейдес об'єднується з фременами, щоб помститися змовникам, які знищили його родину.",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/5/52/Dune_Part_Two_poster.jpeg",
+    "sessions": ["10:00", "13:30", "16:45", "20:00"]
+  },
+  {
+    "id": 2,
+    "title": "Оппенгеймер",
+    "description": "Історія американського науковця Роберта Оппенгеймера та його ролі у створенні атомної бомби.",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/4/4a/Oppenheimer_%28film%29.jpg",
+    "sessions": ["11:00", "14:15", "18:30", "21:45"]
+  },
+  {
+    "id": 3,
+    "title": "Барбі",
+    "description": "Барбі вирушає у реальний світ, щоб знайти справжнє щастя та зрозуміти сенс життя.",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/0/0b/Barbie_2023_poster.jpg",
+    "sessions": ["09:30", "12:00", "15:20", "19:10"]
+  }
+]

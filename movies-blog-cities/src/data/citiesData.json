@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "country": "Україна",
+    "city": "Київ",
+    "description": "Столиця України, велике культурне та історичне місто на березі Дніпра.",
+    "coatOfArms": "/src/assets/kyiv.png",
+    "population": 2884000,
+    "area": 839
+  },
+  {
+    "id": 2,
+    "country": "Україна",
+    "city": "Одеса",
+    "description": "Південна столиця України, відоме портове місто з багатою історією та гумором.",
+    "coatOfArms": "/src/assets/odesa.png",
+    "population": 1010000,
+    "area": 162
+  },
+  {
+    "id": 3,
+    "country": "Україна",
+    "city": "Львів",
+    "description": "Місто з європейською архітектурою, кав'ярнями та багатою культурною спадщиною.",
+    "coatOfArms": "/src/assets/lwow.png",
+    "population": 720000,
+    "area": 182
+  }
+]
